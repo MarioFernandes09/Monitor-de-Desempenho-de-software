@@ -97,7 +97,7 @@ class MonitoramentoApp:
                 # Atualizando gráfico
                 self.atualizar_grafico()
                 
-                # Atualizando barra de progresso
+                # Atualizando barra d]]e progresso
                 self.progress_bar["value"] = i + 1
 
             except (psutil.NoSuchProcess, psutil.AccessDenied):
